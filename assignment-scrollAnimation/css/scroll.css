@@ -1,0 +1,19 @@
+.scroll-bg {
+    background-image: url(../img/hai.jpg);
+    background-position: 50% 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.cat {
+    position: relative;
+    width: 30%;
+    left: 0;
+    filter: drop-shadow(8px 8px 7px rgba(0, 0, 0, 0.6));
+    margin-top: 80vh;
+}
+
+.scrolling-cat {
+    height: 200vh;
+}
