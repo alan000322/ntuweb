@@ -1,0 +1,138 @@
+body {
+    font-family: 'Noto Serif TC', serif;
+}
+
+.bg_center_cover {
+    background-size: cover;
+    background-position: center center;
+}
+
+.bg_top_cover {
+    background-size: cover;
+    background-position: top;
+}
+
+.bg_fix {
+    background-attachment: fixed;
+}
+
+.vh-200 {
+    height: 200vh;
+}
+
+.vh-10 {
+    height: 10vh;
+}
+
+.vh-20 {
+    height: 20vh;
+}
+
+.vh-30 {
+    height: 30vh;
+}
+
+.vh-40 {
+    height: 40vh;
+}
+
+.vh-50 {
+    height: 50vh;
+}
+
+.vh-60 {
+    height: 50vh;
+}
+
+.vh-70 {
+    height: 70vh;
+}
+
+.vh-80 {
+    height: 80vh;
+}
+
+.vh-90 {
+    height: 90vh;
+}
+
+.vh-200 {
+    height: 200vh;
+}
+
+.vh-min-100 {
+    min-height: 100vh;
+}
+
+.vh-min-80 {
+    min-height: 80vh;
+}
+
+.vh-min-20 {
+    min-height: 20vh;
+}
+
+.right_transform_3 {
+    transform-origin: left bottom;
+    transform: rotate(3deg);
+}
+
+.left_transform_3 {
+    transform-origin: left bottom;
+    transform: rotate(-3deg);
+}
+
+
+/* 背景圖 */
+
+
+/* Part 1 */
+
+.full_img_introview {
+    background-image: url('../img/intro/map-dark1.jpg');
+    opacity: 1;
+    background-color: rgb(0, 0, 0);
+}
+
+
+/* Part 2 */
+
+.full_img_sueview {
+    height: 90vh;
+    background-image: url('../img/sue/sue.png');
+    background-attachment: fixed;
+}
+
+.full_img_sueorgview {
+    height: 200vh;
+    background-image: url('../img/sue/sue-dark.png');
+    background-attachment: fixed;
+}
+
+.landban {
+    background-image: url('../img/sue/landban.png');
+}
+
+
+/* Part 3 */
+
+.full_img_futureview {
+    height: 100vh;
+    background-image: url('../img/future/future.png');
+}
+
+
+/* Part 4 */
+
+.full_img_futureview {
+    height: 100vh;
+    background-image: url('../img/future/future.png');
+}
+
+
+/* Part 5 */
+
+.full_img_futureview {
+    height: 100vh;
+    background-image: url('../img/future/future.png');
+}
