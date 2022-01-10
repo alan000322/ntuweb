@@ -1,0 +1,25 @@
+.pic {
+    position: absolute;
+    /* need to remove spaces of each of these img */
+    width: 100vw;
+    height: 100vh;
+    opacity: 1;
+    object-fit: cover;
+}
+
+.pic_top {
+    position: absolute;
+    /* need to remove spaces of each of these img */
+    width: 100vw;
+    height: 100vh;
+    opacity: 1;
+    object-fit: cover;
+}
+
+.span_word {
+    z-index: 100;
+}
+
+.word_list {
+    height: 100vh;
+}

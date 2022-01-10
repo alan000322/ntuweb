@@ -1,5 +1,15 @@
+* {
+    /* reset */
+    position: relative;
+    margin: 0;
+}
+
 body {
     font-family: 'Noto Serif TC', serif;
+}
+
+span {
+    font-size: 18px;
 }
 
 .bg_center_cover {
@@ -60,6 +70,10 @@ body {
     height: 200vh;
 }
 
+.vh-300 {
+    height: 300vh;
+}
+
 .vh-min-100 {
     min-height: 100vh;
 }
@@ -82,6 +96,14 @@ body {
     transform: rotate(-3deg);
 }
 
+.bg_hover_grey:hover {
+    background-color: #cecece;
+}
+
+.bg_hover_grey:active {
+    background-color: #cecece;
+}
+
 
 /* 背景圖 */
 
@@ -98,35 +120,108 @@ body {
 /* Part 2 */
 
 .full_img_sueview {
-    height: 90vh;
+    height: 40vh;
     background-image: url('../img/sue/sue.png');
     background-attachment: fixed;
 }
 
 .full_img_sueorgview {
-    height: 200vh;
+    height: 300vh;
     background-image: url('../img/sue/sue-dark.png');
     background-attachment: fixed;
 }
 
 .landban {
     background-image: url('../img/sue/landban.png');
+    background-position: center;
+}
+
+.article {
+    background-color: rgb(54, 54, 54);
+}
+
+.bg_transparent_80 {
+    background-color: rgba(255, 255, 255, 0.80);
+}
+
+@media (min-width: 992px) {
+    .w_fluid {
+        width: 75%;
+    }
+}
+
+@media (max-width: 992px) {
+    .w_fluid {
+        width: 70%;
+        height: 45%;
+    }
 }
 
 
 /* Part 3 */
 
-.full_img_futureview {
+.plan {
+    height: 500vh;
+    /* background-color: #141414;
+    font-size: 2.8vh; */
+}
+
+.plan_board {
+    z-index: 1;
     height: 100vh;
-    background-image: url('../img/future/future.png');
+}
+
+.img_opa {
+    left: 0;
+    min-width: 100vw;
+}
+
+.plan0 {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    background-color: black;
+}
+
+.plan2 {
+    z-index: 15;
+}
+
+.plan3 {
+    z-index: 14;
+}
+
+.plan4 {
+    z-index: 13;
+}
+
+.plan5 {
+    z-index: 12;
+}
+
+.plan5 {
+    z-index: 11;
 }
 
 
 /* Part 4 */
 
-.full_img_futureview {
-    height: 100vh;
-    background-image: url('../img/future/future.png');
+.full_img_cultureview {
+    height: 400vh;
+    background-color: #E6E4E5;
+}
+
+.text_dark_theme {
+    color: #413E3E;
+}
+
+.text_history_theme {
+    color: #7A565C;
+}
+
+.text_town_theme {
+    color: #777B61;
 }
 
 
