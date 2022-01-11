@@ -299,7 +299,7 @@
     
     @media screen and (max-width: 992px) {
         .full_img_cultureview {
-            height: 600vh;
+            height: 500vh;
             background-color: #E6E4E5;
         }
     }
