@@ -188,12 +188,23 @@
     }
     
     .full_img_sueorgview {
-        height: 300vh;
+        height: 350vh;
         background-image: url('../img/sue/sue-dark.png');
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-position: center;
         background-color: rgb(46, 46, 46);
+    }
+    
+    @media screen and (max-width: 991px) {
+        .full_img_sueorgview {
+            height: 450vh;
+            background-image: url('../img/sue/sue-dark.png');
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: rgb(46, 46, 46);
+        }
     }
     
     .landban {
