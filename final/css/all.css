@@ -290,6 +290,20 @@
         background-color: #E6E4E5;
     }
     
+    @media screen and (min-width: 992px) {
+        .full_img_cultureview {
+            height: 400vh;
+            background-color: #E6E4E5;
+        }
+    }
+    
+    @media screen and (max-width: 992px) {
+        .full_img_cultureview {
+            height: 500vh;
+            background-color: #E6E4E5;
+        }
+    }
+    
     .text_dark_theme {
         color: #413E3E;
     }
