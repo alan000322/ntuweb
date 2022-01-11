@@ -124,6 +124,8 @@ span {
         opacity: 1;
         background-color: rgb(0, 0, 0);
         object-fit: cover;
+        width: 100vw;
+        height: 100vh;
     }
 }
 
