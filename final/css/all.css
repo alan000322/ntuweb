@@ -12,18 +12,9 @@ span {
     font-size: 18px;
 }
 
-.bg_center_cover {
-    background-size: cover;
-    background-position: center center;
-}
-
 .bg_top_cover {
     background-size: cover;
     background-position: top;
-}
-
-.bg_fix {
-    background-attachment: fixed;
 }
 
 .vh-200 {
@@ -119,17 +110,22 @@ span {
         background-image: url('../img/intro/map-dark1.jpg');
         opacity: 1;
         background-color: rgb(0, 0, 0);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center center;
     }
 }
 
 @media screen and (max-width: 991px) {
     .full_img_introview {
         background-image: url('../img/intro/map-mob.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center center;
         opacity: 1;
         background-color: rgb(0, 0, 0);
         object-fit: cover;
         width: 100vw;
-        height: 100vh;
     }
 }
 
