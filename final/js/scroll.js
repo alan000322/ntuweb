@@ -14,7 +14,7 @@ $(function() {
     // sue word
     $(window).scroll(function() {
         let scrolled = $(window).scrollTop();
-        let scrolled_article = $(".article").offset().top;
+        let scrolled_article = $(".article").offset().top - 150;
         console.log(scrolled, scrolled_article)
         $(".slideanimate").each(function() {
             // console.log(scrolled, $(this).data("pos"))
