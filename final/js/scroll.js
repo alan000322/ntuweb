@@ -1,7 +1,7 @@
 $(function() {
 
 
-
+    // plan img
     $(window).scroll(function() {
         $(".pic").each(function() {
             var opRange = $(window).height();
@@ -10,6 +10,27 @@ $(function() {
             });
         });
     });
+
+    // sue word
+    $(window).scroll(function() {
+        let scrolled = $(window).scrollTop();
+        let scrolled_article = $(".article").offset().top;
+        console.log(scrolled, scrolled_article)
+        $(".slideanimate").each(function() {
+            // console.log(scrolled, $(this).data("pos"))
+            if (scrolled > scrolled_article) {
+                console.log('right')
+
+                $(this).addClass(
+                    "slide animate__animated animate__fadeIn"
+                );
+            }
+
+
+
+        });
+    });
+
 
 
 });

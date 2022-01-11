@@ -1,0 +1,7 @@
+.slideanimate {
+    visibility: hidden;
+}
+
+.slide {
+    visibility: visible;
+}
